@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "my-azure-function-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Azure Function App that generates QR codes.",
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\""
@@ -12,5 +12,8 @@
   },
   "devDependencies": {
     "azure-functions-core-tools": "^4.x"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
